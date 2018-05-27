@@ -10,6 +10,24 @@ package Models;
  * @author Alisson
  */
 public class Kitnet extends Apartamento {
+
+    public int getNumQuartos() {
+        return NumQuartos;
+    }
+
+
+    public int getNumBanheiros() {
+        return NumBanheiros;
+    }
+
+    public Kitnet(int metroQuadrado, double preco, String endereceo, int andar, int numGaragem) {
+        super(metroQuadrado, preco, endereceo, andar, numGaragem, 1, 1);
+    }
+    
+    public Kitnet(){
+        super();
+    }
+    
     public int NumQuartos = 1;
     public int NumBanheiros = 1;
 }

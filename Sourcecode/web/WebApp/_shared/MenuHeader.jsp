@@ -16,16 +16,16 @@
           Imóveis
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Apartamentos</a>
-          <a class="dropdown-item" href="#">Casas</a>
-          <a class="dropdown-item" href="#">Chácaras</a>
-          <a class="dropdown-item" href="#">Coberturas</a>
-          <a class="dropdown-item" href="#">Flats</a>
-          <a class="dropdown-item" href="#">Garagens</a>
-          <a class="dropdown-item" href="#">Kitnets</a>
-          <a class="dropdown-item" href="#">Lojas</a>
-          <a class="dropdown-item" href="#">Sobrados</a>
-          <a class="dropdown-item" href="#">Terrenos</a>
+          <a class="dropdown-item" href="Apartamento?c=Listar">Apartamentos</a>
+          <a class="dropdown-item" href="Casa?c=Listar">Casas</a>
+          <a class="dropdown-item" href="Chacara?c=Listar">Chácaras</a>
+          <a class="dropdown-item" href="Cobertura?c=Listar">Coberturas</a>
+          <a class="dropdown-item" href="Flat?c=Listar">Flats</a>
+          <a class="dropdown-item" href="Garagem?c=Listar">Garagens</a>
+          <a class="dropdown-item" href="Kitnet?c=Listar">Kitnets</a>
+          <a class="dropdown-item" href="Loja?c=Listar">Lojas</a>
+          <a class="dropdown-item" href="Sobrado?c=Listar">Sobrados</a>
+          <a class="dropdown-item" href="Terreno?c=Listar">Terrenos</a>
         </div>
       </li>
       <li class="nav-item">

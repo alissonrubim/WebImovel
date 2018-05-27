@@ -13,7 +13,7 @@
             <form action="Usuario">
                 
                 <input type="hidden" name="c" value="Inserir" />
-                <input type="hidden" name="id" value="" />
+                <input type="hidden" name="Id" value="" />
                 <div class="form-group">
                     <label for="exampleInputEmail1">Usuário</label>
                     <input type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Usuário">

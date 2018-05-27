@@ -13,4 +13,13 @@ public class Terreno extends Imovel{
     public double Hectares(){
         return this.MetroQuadrado * 0.0001;
     }
+
+    public Terreno() {
+        super();
+    }
+
+    public Terreno(int metroQuadrado, double preco, String endereco) {
+        super(metroQuadrado, preco, endereco);
+    }
+    
 }

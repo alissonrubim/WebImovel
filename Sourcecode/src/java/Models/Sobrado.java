@@ -11,4 +11,16 @@ package Models;
  */
 public class Sobrado extends Casa{
     private final boolean TemGaragem = false;
+
+    public Sobrado() {
+        super();
+    }
+
+    public Sobrado(boolean TemGaragem, int NumGaragem, int NumQuartos, int NumBanheiros, int metroQuadrado, double preco, String endereco) {
+        super(TemGaragem, NumGaragem, NumQuartos, NumBanheiros, metroQuadrado, preco, endereco);
+    }
+    
+    
+    
+    
 }

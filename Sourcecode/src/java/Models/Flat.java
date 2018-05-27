@@ -10,5 +10,13 @@ package Models;
  * @author Alisson
  */
 public class Flat extends Casa {
+
+    public Flat() {
+        super();
+    }
+
+    public Flat(boolean TemGaragem, int NumGaragem, int NumQuartos, int NumBanheiros, int metroQuadrado, double preco, String endereco) {
+        super(TemGaragem, NumGaragem, NumQuartos, NumBanheiros, metroQuadrado, preco, endereco);
+    }
     
 }
